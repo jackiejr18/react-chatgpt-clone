@@ -4,7 +4,7 @@ import gptLogo from './assets/chatgpt.svg';
 function App() {
   return (
     <div className="App">
-      <div className='sidebar'>
+      <div className='sideBar'>
         <div className='upperSide'>
           <div className='upperSideTop'><img src={gptLogo} className='logo'/><span className='brand'>ChatGPT</span></div>
           <button className='midBtn'><img className='addBtn'/>New Chat</button>
