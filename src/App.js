@@ -30,10 +30,10 @@ function App() {
       <div className='main'>
         <div className='chats'>
           <div className='chat'>
-            <img src={userIcon}/><p className='txt'>lorem</p>
+            <img className='chatImg' src={userIcon}/><p className='txt'>lorem</p>
           </div>
-          <div className='chat'>
-            <img src={gptImgLogo}/><p className='txt'>lorem</p>
+          <div className='chat bot'>
+            <img className='chatImg' src={gptImgLogo}/><p className='txt'>lorem</p>
           </div>
         </div>
         <div className='chatFooter'>
